@@ -56,11 +56,13 @@ p (dr7)
 p (type(dr7))
 p (dr8)
 p (type(dr8))
-x = 3
+x = int(input ())
 p (x)
 p (type(x))
-y = 5
+y = int(input ())
 p (y)
 p (type(y))
-finish = (x + y * (y ** x + 10) - 20
-print (finish)
+end = (x + y * (y ** x + 10) - 20)
+p (end)
+p (type(end))
+
